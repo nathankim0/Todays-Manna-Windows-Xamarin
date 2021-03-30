@@ -25,8 +25,11 @@
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin.UWP\bin\x86\Debug\Todays-Manna-Windows-Xamarin.UWP.exe">
-      <PackagePath>entrypoint\Todays-Manna-Windows-Xamarin.UWP.exe</PackagePath>
+    <AppxPackagedFile Include="C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin.UWP\bin\x86\Debug\Todays_Manna_Windows_Xamarin.UWP.App.exe">
+      <PackagePath>entrypoint\Todays_Manna_Windows_Xamarin.UWP.App.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nathan-windows\.nuget\packages\newtonsoft.json\13.0.1\lib\netstandard2.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nathan-windows\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -181,8 +184,17 @@
     <AppxPackagedFile Include="C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin.UWP\icon_feed.png">
       <PackagePath>icon_feed.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin.UWP\bin\x86\Debug\Todays-Manna-Windows-Xamarin.UWP.xr.xml">
-      <PackagePath>Todays-Manna-Windows-Xamarin.UWP.xr.xml</PackagePath>
+    <AppxPackagedFile Include="C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin.UWP\Assets\batang.ttf">
+      <PackagePath>Assets\batang.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin.UWP\Assets\dotum.ttf">
+      <PackagePath>Assets\dotum.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin.UWP\Assets\materialdesignicons.ttf">
+      <PackagePath>Assets\materialdesignicons.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin.UWP\bin\x86\Debug\Todays_Manna_Windows_Xamarin.UWP.App.xr.xml">
+      <PackagePath>Todays_Manna_Windows_Xamarin.UWP.App.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
@@ -196,55 +208,55 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nathan-windows\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
+    <AppxPackagedFile Include="C:\Users\nathan-windows\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
       <PackagePath>WinMetadata\Microsoft.UI.Xaml.winmd</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin.UWP\bin\x86\Debug\Core\Todays-Manna-Windows-Xamarin.UWP.exe">
-      <PackagePath>Todays-Manna-Windows-Xamarin.UWP.exe</PackagePath>
+    <AppxPackagedFile Include="C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin.UWP\bin\x86\Debug\Core\Todays_Manna_Windows_Xamarin.UWP.App.exe">
+      <PackagePath>Todays_Manna_Windows_Xamarin.UWP.App.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
-    <ResolvedSDKReference Include="C:\Users\nathan-windows\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.4.appx">
-      <Name>Microsoft.UI.Xaml.2.4</Name>
-      <Version>2.42007.9001.0</Version>
+    <ResolvedSDKReference Include="C:\Users\nathan-windows\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.5.appx">
+      <Name>Microsoft.UI.Xaml.2.5</Name>
+      <Version>2.52012.2002.0</Version>
       <Architecture>x86</Architecture>
-      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.4, MinVersion = 2.42007.9001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\nathan-windows\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.5, MinVersion = 2.52012.2002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\nathan-windows\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.5.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\nathan-windows\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.4.appx">
-      <Name>Microsoft.UI.Xaml.2.4</Name>
-      <Version>2.42007.9001.0</Version>
+    <ResolvedSDKReference Include="C:\Users\nathan-windows\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.5.appx">
+      <Name>Microsoft.UI.Xaml.2.5</Name>
+      <Version>2.52012.2002.0</Version>
       <Architecture>Win32</Architecture>
-      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.4, MinVersion = 2.42007.9001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\nathan-windows\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.5, MinVersion = 2.52012.2002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\nathan-windows\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.5.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\nathan-windows\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.4.appx">
-      <Name>Microsoft.UI.Xaml.2.4</Name>
-      <Version>2.42007.9001.0</Version>
+    <ResolvedSDKReference Include="C:\Users\nathan-windows\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.5.appx">
+      <Name>Microsoft.UI.Xaml.2.5</Name>
+      <Version>2.52012.2002.0</Version>
       <Architecture>x64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.4, MinVersion = 2.42007.9001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\nathan-windows\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.5, MinVersion = 2.52012.2002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\nathan-windows\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.5.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\nathan-windows\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.4.appx">
-      <Name>Microsoft.UI.Xaml.2.4</Name>
-      <Version>2.42007.9001.0</Version>
+    <ResolvedSDKReference Include="C:\Users\nathan-windows\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.5.appx">
+      <Name>Microsoft.UI.Xaml.2.5</Name>
+      <Version>2.52012.2002.0</Version>
       <Architecture>arm</Architecture>
-      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.4, MinVersion = 2.42007.9001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\nathan-windows\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.5, MinVersion = 2.52012.2002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\nathan-windows\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.5.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\nathan-windows\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.4.appx">
-      <Name>Microsoft.UI.Xaml.2.4</Name>
-      <Version>2.42007.9001.0</Version>
+    <ResolvedSDKReference Include="C:\Users\nathan-windows\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.5.appx">
+      <Name>Microsoft.UI.Xaml.2.5</Name>
+      <Version>2.52012.2002.0</Version>
       <Architecture>arm64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.4, MinVersion = 2.42007.9001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\nathan-windows\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.5, MinVersion = 2.52012.2002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\nathan-windows\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.5.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Users\nathan-windows\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">

@@ -9,7 +9,7 @@
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Todays_Manna_Windows_Xamarin.UWP</RootNamespace>
-    <AssemblyName>Todays-Manna-Windows-Xamarin.UWP</AssemblyName>
+    <AssemblyName>Todays_Manna_Windows_Xamarin.UWP.App</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion>10.0.19041.0</TargetPlatformVersion>
@@ -156,6 +156,15 @@
       <Project>{2529DAC8-697D-4CB3-B321-C89D0D64E45B}</Project>
       <Name>Todays-Manna-Windows-Xamarin</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\batang.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\dotum.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\materialdesignicons.ttf" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

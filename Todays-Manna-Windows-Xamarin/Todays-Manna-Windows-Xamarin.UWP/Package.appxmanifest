@@ -32,7 +32,7 @@
       Executable="$targetnametoken$.exe"
       EntryPoint="Todays_Manna_Windows_Xamarin.UWP.App">
       <uap:VisualElements
-        DisplayName="Todays_Manna_Windows_Xamarin.UWP"
+        DisplayName="오늘의 만나"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
         Description="Todays_Manna_Windows_Xamarin.UWP"

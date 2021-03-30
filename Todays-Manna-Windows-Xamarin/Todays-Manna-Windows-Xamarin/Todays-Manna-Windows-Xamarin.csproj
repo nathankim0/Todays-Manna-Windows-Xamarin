@@ -6,7 +6,28 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Datas\BibleAt.json" />
+    <EmbeddedResource Include="Datas\mcc.json" />
+    <EmbeddedResource Include="Datas\MccheyneRange.json" />
+    <EmbeddedResource Include="Datas\MccheyneRange2.json" />
+    <EmbeddedResource Include="Fonts\batang.ttf" />
+    <EmbeddedResource Include="Fonts\dotum.ttf" />
+    <EmbeddedResource Include="Fonts\materialdesignicons.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.UI.Xaml" Version="2.5.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />  
     <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="MainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="MannaPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

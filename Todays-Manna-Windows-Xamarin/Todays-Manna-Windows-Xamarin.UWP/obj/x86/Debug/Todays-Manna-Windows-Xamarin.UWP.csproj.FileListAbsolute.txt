@@ -1,9 +1,6 @@
 C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin.UWP\bin\x86\Debug\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml
 C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin.UWP\bin\x86\Debug\App.xbf
 C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin.UWP\bin\x86\Debug\MainPage.xbf
-C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin.UWP\bin\x86\Debug\Todays-Manna-Windows-Xamarin.UWP.xr.xml
-C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin.UWP\bin\x86\Debug\Todays-Manna-Windows-Xamarin.UWP.exe
-C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin.UWP\bin\x86\Debug\Todays-Manna-Windows-Xamarin.UWP.pdb
 C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin.UWP\bin\x86\Debug\resources.pri
 C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin.UWP\bin\x86\Debug\AppxManifest.xml
 C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin.UWP\bin\x86\Debug\Core\AppxManifest.xml
@@ -40,8 +37,6 @@ C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-W
 C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin.UWP\obj\x86\Debug\Microsoft.UI.Xaml.pri.xml
 C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin.UWP\obj\x86\Debug\Xamarin.Essentials.pri.xml
 C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin.UWP\obj\x86\Debug\Xamarin.Forms.Platform.UAP.pri.xml
-C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin.UWP\obj\x86\Debug\Todays-Manna-Windows-Xamarin.UWP.exe
-C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin.UWP\obj\x86\Debug\Todays-Manna-Windows-Xamarin.UWP.pdb
 C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin.UWP\obj\x86\Debug\ResourceHandlingTask.state
 C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin.UWP\obj\x86\Debug\priconfig.xml
 C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin.UWP\obj\x86\Debug\priconfig.xml.intermediate
@@ -61,3 +56,10 @@ C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-W
 C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin.UWP\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.Graphics.Canvas.winmd_636160391180000000.json
 C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424491200000000.json
+C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin.UWP\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin.UWP\bin\x86\Debug\Todays_Manna_Windows_Xamarin.UWP.App.xr.xml
+C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin.UWP\bin\x86\Debug\Todays_Manna_Windows_Xamarin.UWP.App.exe
+C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin.UWP\bin\x86\Debug\Todays_Manna_Windows_Xamarin.UWP.App.pdb
+C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin.UWP\bin\x86\Debug\Core\Todays_Manna_Windows_Xamarin.UWP.App.exe
+C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin.UWP\obj\x86\Debug\Todays_Manna_Windows_Xamarin.UWP.App.exe
+C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin.UWP\obj\x86\Debug\Todays_Manna_Windows_Xamarin.UWP.App.pdb

@@ -1,7 +1,10 @@
 WinMetadata\Windows.winmd
+Assets\batang.ttf
+Assets\dotum.ttf
 Assets\LargeTile.scale-100.png
 Assets\LargeTile.scale-200.png
 Assets\LargeTile.scale-400.png
+Assets\materialdesignicons.ttf
 Assets\SmallTile.scale-100.png
 Assets\SmallTile.scale-200.png
 Assets\SmallTile.scale-400.png
@@ -28,7 +31,7 @@ Assets\Wide310x150Logo.scale-200.png
 Assets\Wide310x150Logo.scale-400.png
 App.xbf
 MainPage.xbf
-Todays-Manna-Windows-Xamarin.UWP.xr.xml
+Todays_Manna_Windows_Xamarin.UWP.App.xr.xml
 icon_about.png
 icon_feed.png
 Properties\Default.rd.xml

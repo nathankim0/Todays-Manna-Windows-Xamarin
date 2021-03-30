@@ -1,0 +1,192 @@
+﻿<ContentPage
+    x:Class="TodaysMannaWindows.MannaPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:local="clr-namespace:TodaysMannaWindows"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <NavigationPage.TitleView>
+        <StackLayout Orientation="Horizontal">
+            <Label
+                BackgroundColor="Transparent"
+                FontAttributes="Bold"
+                
+                HorizontalOptions="Start"
+                Text="오늘의 만나"
+                FontSize="30"
+                VerticalOptions="Center">
+            </Label>
+            <ImageButton
+                BackgroundColor="Transparent"
+                Clicked="OnEnglishButtonClicked"
+                HorizontalOptions="EndAndExpand"
+                VerticalOptions="Center">
+                <ImageButton.Source>
+                    <FontImageSource
+                        FontFamily="materialdesignicons"
+                        Glyph="{x:Static local:FontIcons.AlphabetLatin}"
+                        Size="30"
+                        Color="{AppThemeBinding Dark=White,
+                                                Light=Black}"/>
+                </ImageButton.Source>
+            </ImageButton>
+            <!--
+            <ImageButton
+                Padding="10,0,5,0"
+                BackgroundColor="Transparent"
+                Clicked="OnMannaDateButtonClicked"
+                HorizontalOptions="End">
+                <ImageButton.Source>
+                    <FontImageSource
+                        FontFamily="materialdesignicons"
+                        Size="30"
+                        Glyph="{x:Static local:FontIcons.CalendarBlank}"
+                        Color="{AppThemeBinding Dark=White,
+                                                Light=Black}"/>
+
+                </ImageButton.Source>
+            </ImageButton>-->
+        </StackLayout>
+    </NavigationPage.TitleView>
+
+    <Grid x:Name="contentGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <CollectionView
+            x:Name="mannaCollectionView"
+            BackgroundColor="{AppThemeBinding Dark=#2e2e2e,
+                                              Light=White}"
+            Footer="&#10;"
+            ItemsSource="{Binding MannaContents}"
+            VerticalOptions="Fill"
+            VerticalScrollBarVisibility="Always">
+            <CollectionView.Header>
+                <StackLayout Padding="15,0,15,0" BackgroundColor="{AppThemeBinding Dark=#2e2e2e, Light=White}">
+                    <StackLayout Padding="0,0,0,2" Orientation="Horizontal">
+                        <Label
+                            x:Name="today"
+                            FontSize = "25"
+                            Text="{Binding Today}"
+                            TextColor="Gray"
+                            VerticalOptions="CenterAndExpand" />
+                        <Button
+                            BackgroundColor="Transparent"
+                            Clicked="OnMannaYesButtonClicked"
+                            FontSize = "25"
+                            Text="어제"
+                            TextColor="#0000EE"
+                            VerticalOptions="CenterAndExpand" />
+                        <Button
+                            BackgroundColor="Transparent"
+                            Clicked="OnMannaTodayButtonClicked"
+                            FontSize = "25"
+                            Text="오늘"
+                            TextColor="#0000EE"
+                            VerticalOptions="CenterAndExpand" />
+                        <Button
+                            BackgroundColor="Transparent"
+                            Clicked="OnMannaTomButtonClicked"
+                            FontSize = "25"
+                            Text="내일"
+                            TextColor="#0000EE"
+                            VerticalOptions="CenterAndExpand" />
+                    </StackLayout>
+                    <Frame
+                        x:Name="rangeButton"
+                        Margin="0"
+                        BackgroundColor="LightGray"
+                        HasShadow="True">
+                        <StackLayout Margin="5">
+                            <Label
+                                x:Name="mannaRangeLabel"
+                                FontSize="25"
+                                HorizontalOptions="Center"
+                                HorizontalTextAlignment="Center"
+                                Text="{Binding MannaShareRange}"
+                                TextColor="Black"
+                                VerticalOptions="Center" />
+                            <Label
+                                x:Name="mcRangeLabel"
+                                FontSize="25"
+                                HorizontalOptions="Center"
+                                HorizontalTextAlignment="Center"
+                                Text="{Binding McShareRange}"
+                                TextColor="Black"
+                                VerticalOptions="Center" />
+                        </StackLayout>
+                    </Frame>
+                    <StackLayout Orientation="Horizontal">
+                        <Label
+                            x:Name="verse"
+                            FontAttributes="Bold"
+                            FontSize="Subtitle"
+                            HorizontalOptions="StartAndExpand"
+                            Text="{Binding JsonMannaData.Verse}"
+                            TextColor="{AppThemeBinding Dark=White,
+                                                        Light=Black}"
+                            VerticalOptions="CenterAndExpand" />
+
+                        <ImageButton
+                            Margin="0,0,5,0"
+                            Padding="8"
+                            BackgroundColor="Transparent"
+                            Clicked="OnShareButtonClicked"
+                            HorizontalOptions="End"
+                            VerticalOptions="CenterAndExpand">
+                            <ImageButton.Source>
+                                <FontImageSource
+                                    FontFamily="materialdesignicons"
+                                    Glyph="{x:Static local:FontIcons.ShareVariant}"
+                                    Size="30"
+                                    Color="{AppThemeBinding Dark=White,
+                                                            Light=Black}" />
+                            </ImageButton.Source>
+                        </ImageButton>
+                    </StackLayout>
+                </StackLayout>
+            </CollectionView.Header>
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Padding="15,15,15,15" BackgroundColor="{AppThemeBinding Dark=#2e2e2e, Light=White}">
+                        <Grid.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnCollectionViewItemTapped" />
+                        </Grid.GestureRecognizers>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Label
+                            Grid.Row="0"
+                            Grid.Column="0"
+                            FontSize="20"
+                            Text="{Binding Number}"
+                            TextColor="{AppThemeBinding Dark=White,
+                                                        Light=Black}" />
+                        <Label
+                            Grid.Row="0"
+                            Grid.Column="1"
+                            FontSize="20"
+                            LineBreakMode="CharacterWrap"
+                            Text="{Binding MannaString}"
+                            TextColor="{AppThemeBinding Dark=White,
+                                                        Light=Black}">
+
+                        </Label>
+                    </Grid>
+
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <DatePicker
+            x:Name="mannaDatepicker"
+
+            DateSelected="mannaDatepicker_DateSelected"
+            IsVisible="false"/>
+
+    </Grid>
+</ContentPage>
