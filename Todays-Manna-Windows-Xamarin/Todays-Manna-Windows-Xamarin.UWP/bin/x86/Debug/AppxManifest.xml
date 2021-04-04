@@ -7,7 +7,7 @@
 
     패키지 매니페스트 파일에 대한 자세한 내용은 http://go.microsoft.com/fwlink/?LinkID=241727을 참조하십시오.
   -->
-  <Identity Name="a5f9cb7e-314d-4204-8d12-cfff0f8d9eb5" Publisher="CN=dd213e93-1ea6-44be-a279-e3ec5114d127" Version="1.0.0.0" ProcessorArchitecture="x86" />
+  <Identity Name="a5f9cb7e-314d-4204-8d12-cfff0f8d9eb5" Publisher="CN=nathan-windows" Version="1.0.5.0" ProcessorArchitecture="x86" />
   <mp:PhoneIdentity PhoneProductId="ec0cc741-fd3e-485c-81be-68815c480690" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Todays_Manna_Windows_Xamarin.UWP</DisplayName>
@@ -156,7 +156,7 @@
     <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v5.0" />
     <build:Item Name="VisualStudio" Version="16.0" />
     <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2019" />
-    <build:Item Name="OperatingSystem" Version="10.0.19041.1 (WinBuild.160101.0800)" />
+    <build:Item Name="OperatingSystem" Version="10.0.19041.867 (WinBuild.160101.0800)" />
     <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="16.0.31110.138" />
     <build:Item Name="ProjectGUID" Value="{5D2A65D4-98C2-4C45-AEA1-59898AC745BE}" />
     <build:Item Name="OptimizingToolset" Value="None" />

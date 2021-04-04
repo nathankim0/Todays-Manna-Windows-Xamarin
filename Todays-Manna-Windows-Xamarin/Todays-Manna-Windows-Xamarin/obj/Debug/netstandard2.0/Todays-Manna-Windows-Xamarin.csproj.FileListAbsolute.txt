@@ -11,5 +11,4 @@ C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-W
 C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\obj\Debug\netstandard2.0\Todays-Manna-Windows-Xamarin.dll
 C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\obj\Debug\netstandard2.0\ref\Todays-Manna-Windows-Xamarin.dll
 C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\obj\Debug\netstandard2.0\Todays-Manna-Windows-Xamarin.pdb
-C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\obj\Debug\netstandard2.0\MannaPage.xaml.g.cs

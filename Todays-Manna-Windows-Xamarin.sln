@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Todays-Manna-Windows-Xamarin.UWP", "Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin.UWP\Todays-Manna-Windows-Xamarin.UWP.csproj", "{5D2A65D4-98C2-4C45-AEA1-59898AC745BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Todays-Manna-Windows-Xamarin", "Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin.csproj", "{E9D7D0D8-D72C-4EEB-8DE0-19BDE8171CEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Todays-Manna-Windows-Xamarin", "Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin.csproj", "{E9D7D0D8-D72C-4EEB-8DE0-19BDE8171CEA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

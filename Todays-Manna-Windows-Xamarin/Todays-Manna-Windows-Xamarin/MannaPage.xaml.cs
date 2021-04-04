@@ -39,11 +39,18 @@ namespace TodaysMannaWindows
 
         private async void OnShareButtonClicked(object sender, EventArgs e)
         {
-            await Share.RequestAsync(new ShareTextRequest
+            var shareText = "";
+            try
             {
-                Text = today.Text + "\n\n" + verse.Text + "\n\n" + (BindingContext as MannaViewModel).AllString,
-                Title = "공유"
-            });
+                shareText = today.Text + "\n\n" + verse.Text + "\n\n" + (BindingContext as MannaViewModel).AllString;
+            }
+            catch(Exception ex)
+            {
+                
+            }
+            await Clipboard.SetTextAsync(shareText);
+
+            await DisplayAlert("클립보드에 복사됨", shareText, "확인");
         }
 
         private async void OnEnglishButtonClicked(object sender, EventArgs e)

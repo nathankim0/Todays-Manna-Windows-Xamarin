@@ -63,3 +63,4 @@ C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-W
 C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin.UWP\bin\x86\Debug\Core\Todays_Manna_Windows_Xamarin.UWP.App.exe
 C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin.UWP\obj\x86\Debug\Todays_Manna_Windows_Xamarin.UWP.App.exe
 C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin.UWP\obj\x86\Debug\Todays_Manna_Windows_Xamarin.UWP.App.pdb
+C:\Users\nathan-windows\source\repos\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin\Todays-Manna-Windows-Xamarin.UWP\bin\x86\Debug\Core\ForBundle\AppxManifest.xml

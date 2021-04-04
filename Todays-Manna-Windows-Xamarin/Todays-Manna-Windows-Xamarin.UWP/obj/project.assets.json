@@ -390,7 +390,7 @@
           "Microsoft.UI.Xaml": "2.5.0",
           "Newtonsoft.Json": "13.0.1",
           "Xamarin.Essentials": "1.6.1",
-          "Xamarin.Forms": "5.0.0.2012"
+          "Xamarin.Forms": "4.8.0.1821"
         },
         "compile": {
           "bin/placeholder/Todays-Manna-Windows-Xamarin.dll": {}
@@ -957,7 +957,7 @@
           "Microsoft.UI.Xaml": "2.5.0",
           "Newtonsoft.Json": "13.0.1",
           "Xamarin.Essentials": "1.6.1",
-          "Xamarin.Forms": "5.0.0.2012"
+          "Xamarin.Forms": "4.8.0.1821"
         },
         "compile": {
           "bin/placeholder/Todays-Manna-Windows-Xamarin.dll": {}
@@ -1525,7 +1525,7 @@
           "Microsoft.UI.Xaml": "2.5.0",
           "Newtonsoft.Json": "13.0.1",
           "Xamarin.Essentials": "1.6.1",
-          "Xamarin.Forms": "5.0.0.2012"
+          "Xamarin.Forms": "4.8.0.1821"
         },
         "compile": {
           "bin/placeholder/Todays-Manna-Windows-Xamarin.dll": {}
@@ -2090,7 +2090,7 @@
           "Microsoft.UI.Xaml": "2.5.0",
           "Newtonsoft.Json": "13.0.1",
           "Xamarin.Essentials": "1.6.1",
-          "Xamarin.Forms": "5.0.0.2012"
+          "Xamarin.Forms": "4.8.0.1821"
         },
         "compile": {
           "bin/placeholder/Todays-Manna-Windows-Xamarin.dll": {}
@@ -2657,7 +2657,7 @@
           "Microsoft.UI.Xaml": "2.5.0",
           "Newtonsoft.Json": "13.0.1",
           "Xamarin.Essentials": "1.6.1",
-          "Xamarin.Forms": "5.0.0.2012"
+          "Xamarin.Forms": "4.8.0.1821"
         },
         "compile": {
           "bin/placeholder/Todays-Manna-Windows-Xamarin.dll": {}
@@ -3225,7 +3225,7 @@
           "Microsoft.UI.Xaml": "2.5.0",
           "Newtonsoft.Json": "13.0.1",
           "Xamarin.Essentials": "1.6.1",
-          "Xamarin.Forms": "5.0.0.2012"
+          "Xamarin.Forms": "4.8.0.1821"
         },
         "compile": {
           "bin/placeholder/Todays-Manna-Windows-Xamarin.dll": {}
@@ -3792,7 +3792,7 @@
           "Microsoft.UI.Xaml": "2.5.0",
           "Newtonsoft.Json": "13.0.1",
           "Xamarin.Essentials": "1.6.1",
-          "Xamarin.Forms": "5.0.0.2012"
+          "Xamarin.Forms": "4.8.0.1821"
         },
         "compile": {
           "bin/placeholder/Todays-Manna-Windows-Xamarin.dll": {}
@@ -4360,7 +4360,7 @@
           "Microsoft.UI.Xaml": "2.5.0",
           "Newtonsoft.Json": "13.0.1",
           "Xamarin.Essentials": "1.6.1",
-          "Xamarin.Forms": "5.0.0.2012"
+          "Xamarin.Forms": "4.8.0.1821"
         },
         "compile": {
           "bin/placeholder/Todays-Manna-Windows-Xamarin.dll": {}

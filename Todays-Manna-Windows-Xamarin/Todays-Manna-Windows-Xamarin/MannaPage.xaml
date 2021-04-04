@@ -15,20 +15,13 @@
                 FontSize="30"
                 VerticalOptions="Center">
             </Label>
-            <ImageButton
+            <Button
                 BackgroundColor="Transparent"
                 Clicked="OnEnglishButtonClicked"
                 HorizontalOptions="EndAndExpand"
-                VerticalOptions="Center">
-                <ImageButton.Source>
-                    <FontImageSource
-                        FontFamily="materialdesignicons"
-                        Glyph="{x:Static local:FontIcons.AlphabetLatin}"
-                        Size="30"
-                        Color="{AppThemeBinding Dark=White,
-                                                Light=Black}"/>
-                </ImageButton.Source>
-            </ImageButton>
+                VerticalOptions="Center"
+                Text="영어로 보기">
+            </Button>
             <!--
             <ImageButton
                 Padding="10,0,5,0"
@@ -50,14 +43,14 @@
 
     <Grid x:Name="contentGrid">
         <Grid.RowDefinitions>
-            <RowDefinition Height="*" />
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
         <CollectionView
             x:Name="mannaCollectionView"
             BackgroundColor="{AppThemeBinding Dark=#2e2e2e,
                                               Light=White}"
-            Footer="&#10;"
             ItemsSource="{Binding MannaContents}"
             VerticalOptions="Fill"
             VerticalScrollBarVisibility="Always">
@@ -74,21 +67,21 @@
                             BackgroundColor="Transparent"
                             Clicked="OnMannaYesButtonClicked"
                             FontSize = "25"
-                            Text="어제"
+                            Text="이전날짜"
                             TextColor="#0000EE"
                             VerticalOptions="CenterAndExpand" />
                         <Button
                             BackgroundColor="Transparent"
                             Clicked="OnMannaTodayButtonClicked"
                             FontSize = "25"
-                            Text="오늘"
+                            Text="오늘날짜"
                             TextColor="#0000EE"
                             VerticalOptions="CenterAndExpand" />
                         <Button
                             BackgroundColor="Transparent"
                             Clicked="OnMannaTomButtonClicked"
                             FontSize = "25"
-                            Text="내일"
+                            Text="다음날짜"
                             TextColor="#0000EE"
                             VerticalOptions="CenterAndExpand" />
                     </StackLayout>
@@ -127,22 +120,15 @@
                                                         Light=Black}"
                             VerticalOptions="CenterAndExpand" />
 
-                        <ImageButton
+                        <Button
                             Margin="0,0,5,0"
                             Padding="8"
                             BackgroundColor="Transparent"
                             Clicked="OnShareButtonClicked"
                             HorizontalOptions="End"
+                            Text="공유하기"
                             VerticalOptions="CenterAndExpand">
-                            <ImageButton.Source>
-                                <FontImageSource
-                                    FontFamily="materialdesignicons"
-                                    Glyph="{x:Static local:FontIcons.ShareVariant}"
-                                    Size="30"
-                                    Color="{AppThemeBinding Dark=White,
-                                                            Light=Black}" />
-                            </ImageButton.Source>
-                        </ImageButton>
+                        </Button>
                     </StackLayout>
                 </StackLayout>
             </CollectionView.Header>
@@ -174,19 +160,17 @@
                             Text="{Binding MannaString}"
                             TextColor="{AppThemeBinding Dark=White,
                                                         Light=Black}">
-
                         </Label>
                     </Grid>
-
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
-
+        <StackLayout Grid.Row="1" Padding="15,0,0,0" >
+            <Label Text="Have a nice day :) &#10;" FontAttributes="Italic" FontSize="15" TextColor="Gray"/>
+        </StackLayout>
         <DatePicker
             x:Name="mannaDatepicker"
-
             DateSelected="mannaDatepicker_DateSelected"
             IsVisible="false"/>
-
     </Grid>
 </ContentPage>

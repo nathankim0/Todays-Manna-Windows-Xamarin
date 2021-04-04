@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "35uyz445mTaXnBFXfYMF0eWfEfInwAYUWH7hNKJUXLgOwZOek/udKr1HicmSL0K3Xg//Y8ipbm9U3Rz5JT0YnA==",
+  "dgSpecHash": "sWCGfFLrSLYPWoDFEuW/5pduja9Oi2KSRwUBtDNJ5RZHaXoU7xZsWUfV9rfSY5vCcAdx2Jv6fP1zngVOSCxpKw==",
   "success": true,
   "projectFilePath": "C:\\Users\\nathan-windows\\source\\repos\\Todays-Manna-Windows-Xamarin\\Todays-Manna-Windows-Xamarin\\Todays-Manna-Windows-Xamarin.UWP\\Todays-Manna-Windows-Xamarin.UWP.csproj",
   "expectedPackageFiles": [
@@ -31,7 +31,7 @@
     "C:\\Users\\nathan-windows\\.nuget\\packages\\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\\6.2.12\\runtime.win10-x86.microsoft.netcore.universalwindowsplatform.6.2.12.nupkg.sha512",
     "C:\\Users\\nathan-windows\\.nuget\\packages\\win2d.uwp\\1.20.0\\win2d.uwp.1.20.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+    "C:\\Users\\nathan-windows\\.nuget\\packages\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
   ],
   "logs": []
 }
